@@ -26,7 +26,7 @@ Para configurar o projeto localmente, siga estas etapas:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/plataforma-once-upon-a-time.git
+   git clone https://github.com/seuusuario/Once_Upon_A_Time.git
    ```
 
 2. Navegue até o diretório do projeto:
