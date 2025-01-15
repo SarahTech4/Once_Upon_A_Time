@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: minhaFonte;
+    src: url(/Fonts/pmingliu.ttf);
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    padding: 15px;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navlist{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.navi-item a{
+    text-decoration: none;
+    color: beige;
+}
+
+.navi-item.active a {
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid #ffff;
+}
+
+button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    color:#000000;
+    font-family: montserrat;
+    font-size: large;
+    font-weight: 800;
+    padding: 25px;
+    width: 200px;
+    background-color: rgb(134, 167, 167);
+
+}
